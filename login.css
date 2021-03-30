@@ -1,0 +1,36 @@
+div {
+	width: 300px;
+	background: #ffffff;
+	margin: 0 auto;
+}
+
+body{
+	background: gray;
+}
+
+form {
+	display: flex;
+	flex-direction: column; 
+	flex-wrap: wrap;
+}
+
+.btn{
+	width: 228px;
+	height: 33px;
+
+	margin: 0 auto;
+
+
+	font-weight: bold;
+	font-size: 18px;
+	
+	color: #FFFFFF;
+	text-align: center;
+	background:#5929CC;
+     		
+      border-radius: 10px;
+      padding: 2px 4px;
+
+
+
+}
