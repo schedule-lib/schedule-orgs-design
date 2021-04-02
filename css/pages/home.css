@@ -1,0 +1,57 @@
+div.container {
+  display: flex;
+  flex-direction: row;
+  background: gray;
+}
+
+div.aside {
+  background: #ffffff;
+  width: 500px;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+div.aside ul {
+  margin-top: 70px;
+}
+div.aside ul li {
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+
+  margin: 5px;
+  padding: 2px 8px;
+  background: #dedede;
+  font-weight: 500;
+  cursor: pointer;
+}
+div.aside ul li:hover {
+  background: #d3d3d3;
+}
+ul li a {
+  text-decoration: none;
+  color: #121212;
+}
+
+/* sdkfljhgiuerfngjrfngv */
+button.new-service {
+  margin: 0 auto;
+  height: 44px;
+  width: 200px;
+
+  position: absolute;
+  bottom: 30px;
+  border-radius: 6px;
+  border: 0;
+
+  background: #5929cc;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+button.new-service:hover {
+  background: #1b0c3d;
+}

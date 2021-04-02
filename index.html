@@ -1,27 +1,30 @@
 <!DOCTYPE html>
-    <html>
-<head>
-	<title>Agendamento</title>
-	<meta charset="utf-8" />
-	<link rel="stylesheet" href="./login.css" />
-     <style type="text/css">
-     	
-     </style>
+<html>
+  <head>
+    <title>Agendamento</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./login.css" />
+    <link rel="stylesheet" href="./css/pages/login.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Serviço de Agendamento</h1>
 
-</head>
-<body>
-	<div>
-		<h1>Serviço de Agendamento</h1>
+      <form>
+        <div class="group">
+          <label>Identificador</label>
+          <input type="text" placeholder="id" name="" required />
+        </div>
 
-		<form>
-		   <label>Identificador</label>
-			<input type="text" placeholder="id" name="">
+        <div class="group">
+          <label>Senha:</label>
+          <input type="password" placeholder="password" required name="senha" />
+          <br /><br />
+        </div>
 
-			<label>Senha:</label>
-			<input type="password" placeholder="password"name="senha"> <br><br>
-
-			<button type="submit" class="btn">Entrar na Plataforma </button>
-			
-		</form>
-	</div>
-</body>
+        <button type="submit" class="btn">Entrar na Plataforma</button>
+      </form>
+    </div>
+  </body>
+</html>
