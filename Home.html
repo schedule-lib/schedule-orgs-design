@@ -1,105 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,400;1,500&display=swap" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/pages/home.css">
-  <link rel="stylesheet" href="./css/global.css">
-	<title>Document</title>
-</head>
-<body>
-	<div class="container">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/pages/home.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="aside">
+        <h1>Serviço de agendamento</h1>
 
-		<div class="aside">
-			<h1>Serviço de agendamento</h1>
+        <ul>
+          <li><a href="#">criar novo</a></li>
+          <li><a href="#">alterar cartao</a></li>
+          <li><a href="#">falar com agencia</a></li>
+        </ul>
 
-			<ul>
-				<li><a href="#">criar novo</a></li>
-				<li><a href="#">alterar cartao</a></li>
-				<li><a href="#">falar com agencia</a></li>
-			</ul>
+        <button class="new-service">Criar service</button>
+      </div>
 
-			<button class="new-service">
-				Criar service
-			</button>
-		</div>
+      <div class="right">
+        <div class="top-right">
+          <h2>Agencia bancaria AOA</h2>
 
-		<div class="right">
-			<h1 >Clinica Girassol</h1>
+          <div>+</div>
+        </div>
 
+        <div class="service-name">
+          <strong>nome do service</strong>
+          <input type="text" placeholder="ex: nomde service" />
+        </div>
 
-			<form>
-			<label>SERVIÇOS</label> <br>
+        <div class="block-type">
+          <div>
+            <strong>campos para usuário preenher</strong>
 
-			<input type="text" name="">
-			</form>
-		
+            <button>novo +</button>
+          </div>
 
-			<h4>DADOS DO USUARIO</h4>
+          <div class="group-type">
+            <strong>tipo de campo</strong>
+            <input type="text" name="tipo" placeholder="ex: numero" />
+          </div>
 
-				<div>
-				<form>
-					<label>Nome Completo:<br></label>
-					<input type="text" placeholder="Nome" name=""><br> <br>
+          <div class="group-type">
+            <strong>tipo de campo</strong>
+            <input type="text" name="tipo" placeholder="ex: numero" />
+          </div>
 
-					<label>Telefone nº:</label><br>
-
-					<td>
-						<select>
-							<option>+244</option>
-							<option>+55</option>
-						</select>
-						<input type="phone" placeholder="923**" name=""><br>
-
-					</td> <br>
-					<label>Bilhete de identidade Nº:</label><br>
-					<input type="text" placeholder="BI" name=""><br>
-
-				</form>
-
-				</div>
-
-				<h4>LOCALIZAÇÃO</h4>
-
-				<label> Províncias</label><br>
-
-					<form>
-						<div>
-				<select>
-					<option>Luanda</option>
-					<option>Bengo</option>
-					<option>Benguela</option>
-					<option>Bié</option>
-					<option>Cuando-Cubango</option>
-					<option>Cunene</option>
-					<option>Huambo</option>
-				</select> <br> <br>
-				Unidade de Atendimento<br>
-				<input placeholder="Samba-123">
-			</div>
-
-				<h4>MESES DISPONIVEIS</h4>
-
-
-
-					<h4>Horario de Atendimento</h4>
-					<form>
-						Atendimento:
-						<input placeholder="08:30">
-						::
-						<input placeholder="18:30">
-					</form>
-
-				</form> <br><br>
-				<form>
-				<button type="submit" class="button">Finalizar Serviço</button>
-
-				</form>
-			</div>
-		</div>
-	</div>
-</body>
+          <div class="group-type">
+            <strong>tipo de campo</strong>
+            <input type="text" name="tipo" placeholder="ex: numero" />
+          </div>
+        </div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </body>
 </html>
