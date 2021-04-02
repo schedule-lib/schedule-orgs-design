@@ -6,7 +6,7 @@ div.container {
 
 div.aside {
   background: #ffffff;
-  width: 500px;
+  width: 300px;
   padding: 30px;
 
   display: flex;
@@ -40,7 +40,7 @@ ul li a {
 button.new-service {
   margin: 0 auto;
   height: 44px;
-  width: 200px;
+  width: 100%;
 
   position: absolute;
   bottom: 30px;
@@ -55,3 +55,5 @@ button.new-service {
 button.new-service:hover {
   background: #1b0c3d;
 }
+
+/* lado direito */
