@@ -99,3 +99,12 @@ button.default:active,
 button.default:focus {
   background: var(--blue);
 }
+
+.panel-shadow:hover {
+  box-shadow: var(--panel-shadow);
+}
+
+strong,
+input {
+  font: 400 16px "Inter", sans-serif, "Helvetica Neue", Helvetica, Arial, sans;
+}
