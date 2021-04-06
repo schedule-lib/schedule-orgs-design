@@ -75,7 +75,10 @@ button.default:focus {
 article.right-container {
   padding: 2rem;
   width: 100%;
+  /* overflow: hidden; */
+}
 
+article div.services-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -98,7 +101,7 @@ div.agency-header h4 {
   font-weight: 500;
 }
 
-article div.service-block {
+div.services-container > div.service-block {
   display: flex;
   flex-direction: column;
 
@@ -126,4 +129,36 @@ div.service-block input {
   font-size: 16px;
   border-radius: 4px;
   border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+/* CALENDAR */
+div.service-block div#service-month {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+div#service-month strong span {
+  font-weight: bold;
+  background: var(--background);
+  padding: 0.2rem;
+  border-radius: 1rem;
+}
+div#service-month strong {
+  margin-bottom: 1rem;
+}
+div.months-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+div.months-block div.month {
+  background: var(--white);
+  margin: 0.3rem;
+  padding: 0.3rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+div.months-block div.month.clicked {
+  background: var(--background);
+  border-radius: 0.6rem;
 }
