@@ -25,6 +25,7 @@
   --red-light: #f58;
   --red: #e83f5b;
   --green: #4cd62b;
+  --green-light: #32861d;
   --blue: #5965e0;
   --blue-dark: #4953b8;
   --blue-twitter: #2aa9e0;
@@ -98,6 +99,26 @@ button.default:hover,
 button.default:active,
 button.default:focus {
   background: var(--blue);
+}
+
+button.new {
+  width: fit-content;
+  border: 0;
+  border-radius: 0.2rem;
+  color: var(--background);
+  background: var(--green);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bold;
+  padding: 0.1rem 0.2rem;
+}
+button.new:hover,
+button.new:active,
+button.new:focus {
+  background: var(--green-light);
 }
 
 .panel-shadow:hover {

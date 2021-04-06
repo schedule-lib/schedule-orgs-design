@@ -75,13 +75,24 @@ button.default:focus {
 article.right-container {
   padding: 2rem;
   width: 100%;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 article div.services-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
+  /* grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "TOP RIGHT"
+    "BOTTOM LEFT"
+    "MIDDLE SHILF"; */
+
+  height: 100%;
+  margin-bottom: 1rem;
+  overflow: auto;
 }
 
 div.agency-header {
@@ -101,7 +112,7 @@ div.agency-header h4 {
   font-weight: 500;
 }
 
-div.services-container > div.service-block {
+div.services-container div.service-block {
   display: flex;
   flex-direction: column;
 
