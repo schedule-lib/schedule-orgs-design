@@ -1,38 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,400;1,500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;1,100&family=Inter:wght@100;200;300;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,700&display=swap"
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/pages/home.css" />
     <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/pages/home.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="container">
-      <div class="aside">
+      <aside>
         <h1>Serviço de agendamento</h1>
 
-        <ul>
-          <li><a href="#">criar novo</a></li>
-          <li><a href="#">alterar cartao</a></li>
-          <li><a href="#">falar com agencia</a></li>
-        </ul>
+        <div class="already-group">
+          <div class="server-done">
+            <h5>serviços existentes:</h5>
+          </div>
+          <ul>
+            <li><a href="#">criar novo</a></li>
+            <li><a href="#">alterar cartao</a></li>
+            <li><a href="#">falar com agencia</a></li>
+          </ul>
+        </div>
 
-        <button class="new-service">Criar service</button>
-      </div>
+        <button class="default">novo serviço</button>
+      </aside>
 
-      <div class="right">
+      <div class="right-container">
         <div class="top-right">
           <h2>Agencia bancaria AOA</h2>
           <div>+</div>
-          
-          
         </div>
 
         <div class="service-name">
@@ -64,30 +67,26 @@
         </div>
 
         <div class="block-type">
-        <div>
-          <strong>Endereço de serviço</strong>
-        </div>
+          <div>
+            <strong>Endereço de serviço</strong>
+          </div>
 
           <div class="group-type">
             <strong>provincia</strong>
             <input type="text" name="tipo" placeholder="ex: luanda" />
           </div>
 
-            <div class="group-type">
-              <strong>ponto de atendimento</strong>
-              <input type="text" name="tipo" placeholder="ex:  casas bahia"/> 
-            </div>
-            </div>
-          
+          <div class="group-type">
+            <strong>ponto de atendimento</strong>
+            <input type="text" name="tipo" placeholder="ex:  casas bahia" />
+          </div>
+        </div>
 
-        
+        <div class="block-type">
+          <div>
+            <strong>Horario de atendimento</strong>
+          </div>
 
-          <div class="block-type">
-            <div>
-              <strong>Horario de atendimento</strong>
-            </div>
-
-            
           <div class="group-type">
             <strong>Hora que começa atendimento</strong>
             <input type="text" name="tipo" placeholder="ex: 08:30" />
@@ -97,10 +96,7 @@
             <strong>Termino do Horario</strong>
             <input type="text" name="tipo" placeholder="ex: 08:30" />
           </div>
-
-          </div>
-
-
+        </div>
       </div>
     </div>
   </body>
