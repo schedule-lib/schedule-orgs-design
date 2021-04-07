@@ -129,6 +129,13 @@ div.service-block + div.service-block {
   margin-top: 0;
 }
 
+div.service-block > div.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 2rem;
+}
+
 div.service-block strong {
   font-size: 15px;
   margin-bottom: 3px;
